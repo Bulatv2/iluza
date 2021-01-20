@@ -1,1 +1,1 @@
-# iluza_ai is chat bot
+# iluza_ai is ai chat bot

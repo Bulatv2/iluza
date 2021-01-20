@@ -1,4 +1,4 @@
-# Iluza AI
+# Iluza chatbot
 # author Bulat
 
 import ai_module

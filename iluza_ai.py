@@ -3,20 +3,17 @@
 
 import ai_module
 
+answer = ""
 print("Welcome to:\nIluza")
-words = ""
-hello = "Hello, I am Iluza."
-def sayai(words):
+def say(var):
     name = "Iluza"
-    if words == "":
-        print("{}: {}".format(name, hello))
-    else:
-        print("{}: {}".format(name, words))
+    print("{}: {}".format(name, var))
     request()
 def request():
     user = input("You: ")
     ai(user)
-def ai(file):
-    words = ai_module.say(file)
-    sayai(words)
-sayai(words)
+def ai(var):
+    strai = ai_module.sayai(var)
+    say(strai)
+while  True:
+    ai(answer)

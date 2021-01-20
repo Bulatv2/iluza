@@ -1,6 +1,6 @@
-def say(file):
+def sayai(file):
     if file == "":
-        words = ""
+        words = "Hello, I am Iluza."
     elif file == "How are you?":
         words = "I am good! thank you."
     elif file == "Hello!":

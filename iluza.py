@@ -7,7 +7,11 @@ answer = ""
 print("Welcome to:\nIluza")
 def say(var):
     name = "Iluza"
-    print("{}: {}".format(name, var))
+    if var == "":
+        hello = "Hello! I am Iluza."
+        print("{}: {}".format(name, hello))
+    else:
+        print("{}: {}".format(name, var))
     request()
 def request():
     user = input("You: ")
@@ -16,4 +20,4 @@ def ai(var):
     strai = ai_module.sayai(var)
     say(strai)
 while  True:
-    ai(answer)
+    say(answer)

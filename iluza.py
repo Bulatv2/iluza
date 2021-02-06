@@ -1,23 +1,17 @@
 # Iluza chatbot
 # author Bulat
 
-import ai_module
+from ai_module import sayai
 
-answer = ""
 print("Welcome to:\nIluza")
-def say(var):
-    name = "Iluza"
-    if var == "":
-        hello = "Hello! I am Iluza."
-        print("{}: {}".format(name, hello))
-    else:
-        print("{}: {}".format(name, var))
-    request()
-def request():
+print("Iluza: Hello! I am Iluza.")
+def main():
     user = input("You: ")
     ai(user)
-def ai(var):
-    strai = ai_module.sayai(var)
+def say(arg):
+    print("Iluza: {}".format(arg))
+def ai(arg):
+    strai = sayai(arg)
     say(strai)
 while  True:
-    say(answer)
+    main()
